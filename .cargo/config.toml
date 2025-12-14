@@ -5,3 +5,4 @@ target = "thumbv7em-none-eabihf"
 rustflags = [
     "-C", "link-arg=-Tlink.x",
 ]
+runner = 'probe-rs run --chip STM32WB55RG --protocol swd'

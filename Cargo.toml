@@ -10,6 +10,7 @@ cortex-m-semihosting = "0.5.0"
 critical-section = "1.2.0"
 panic-halt = "1.0.0"
 panic-semihosting = "0.6.0"
+stm32wb = {version = "0.16.0", features = ["stm32wb55"]}
 
 [features]
 rt = ["cortex-m-rt/device"]

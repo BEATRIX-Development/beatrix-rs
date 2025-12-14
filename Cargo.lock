@@ -21,6 +21,7 @@ dependencies = [
  "critical-section",
  "panic-halt",
  "panic-semihosting",
+ "stm32wb",
 ]
 
 [[package]]
@@ -158,6 +159,18 @@ name = "semver-parser"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3"
+
+[[package]]
+name = "stm32wb"
+version = "0.16.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "63b3d083630b8ec736c4972dd14e3da2083db3becdd1d6efde95ecca82d51f59"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "critical-section",
+ "vcell",
+]
 
 [[package]]
 name = "syn"

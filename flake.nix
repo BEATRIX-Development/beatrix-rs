@@ -34,6 +34,8 @@
               rust-analyzer
               rustfmt
               gcc-arm-embedded
+              rustup
+              probe-rs
             ];
         };
       }
